@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* ......................................................................header................................................... */
+/* ..........................headCard-1........................ */
+.headCard-1 {
+  padding: 0em 6em;
+  font-size: 19px;
+  display: flex;
+  gap: 1em;
+  background: black;
+  color: white;
+  height: 45px;
+  align-items: center;
+}
+
+
+.headCard-1 span{
+    padding: 7px 10px;
+}
+.headCard-1 span:hover {
+    background-color: white;
+    color: black;
+    border-bottom: 4px solid blue;
+
+}
+
+/* ........................................headCard-2.......................... */
+.headCard-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7em ;
+}
+h1{
+    font-size: 2.5em;
+    color: rgb(0, 102, 255);
+}
+
+.serchCard-head{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+ .serchCard{
+     display: flex;
+     align-items: center;
+     margin-top: 10px;
+     gap: 1.5em;
+ }
+
+ .serchCard a{
+    text-decoration: none;
+    color: black;
+ }
+
+
+ /* .........input........ */
+ .inputCard{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(117, 116, 116, 0.181);
+    border-radius: 30px;
+    padding:  3px 3px;
+    position: relative;
+
+ }
+
+ .inputCard:hover{
+    background-color: rgba(0, 140, 255, 0.166);
+ }
+ 
+
+ .inputCard input{ 
+     border: hidden;
+     border-radius: 30px;
+     padding: 15px;
+     background: none;
+     font-size: 1em;
+     width: 35em;
+    }
+.inputCard input:focus{
+    outline: 2px solid blue;
+}
+
+ .inputCard button{
+    padding: 5px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 7px;
+    
+ }
+
+
+ .search-p{
+    position: absolute;
+    font-size: 1em;
+    right: 0px;
+    top: -30px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(0, 102, 255);
+    display: none;
+ }
+.inputCard button:hover + .search-p{
+    display: block;
+}
+
+ .serchCard > :nth-child(-n + 2){
+    border-radius: 10px;
+    padding: 10px;
+ }
+ .serchCard > :nth-child(-n + 2):hover{
+    background-color: rgba(0, 140, 255, 0.166);
+ }
+
+
+ /* .........................loginCard....................... */
+.loginCard{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.loginCard a{
+    text-decoration: none;
+    color: rgb(0, 102, 255) ;
+}
+.loginCard a:hover{
+    text-decoration: underline;
+}
+.ai-btn{
+    width: 3em;
+    height: 3em;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    font-size: 1em;
+}
+.join-btn{
+    height: 40px;
+    width: 7em;
+    font-size: 1em;
+    color: blue;
+    border: 1px solid;
+    background: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.loginCard > :nth-child(odd):hover{
+    background-color: rgba(0, 140, 255, 0.166);
+
+}
