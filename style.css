@@ -345,7 +345,12 @@ h1 {
   flex-direction: column;
   gap: 10px;
   box-sizing: border-box;
-  background: linear-gradient(90deg,rgb(8, 100, 236),rgba(134, 188, 235, 0.708), rgb(132, 197, 201),rgba(52, 235, 119)
+  background: linear-gradient(
+    90deg,
+    rgb(8, 100, 236),
+    rgba(134, 188, 235, 0.708),
+    rgb(132, 197, 201),
+    rgba(52, 235, 119)
   );
 }
 
@@ -414,3 +419,56 @@ h1 {
   height: 50%;
   padding: 10px 5px;
 }
+/* .......................discount & offer ..................*/
+.discount {
+  padding: 0 6em;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 20px;
+}
+.discount-b2 {
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  height: 14em;
+  background-color: rgb(197, 73, 169);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.b2i-color{
+  background-color: rgb(0, 39, 97);
+}
+.discount-about {
+  width: 72%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 23px;
+  gap: 10px;
+  color: white;
+  padding: 0 25px;
+}
+.d-a-btn {
+  width: 11em;
+  padding: 8px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.d-a-btn a {
+  color: blue;
+  text-decoration: none;
+  font-weight: 600;
+}
+.discount-img {
+  width: 50%;
+  height: 100%;
+}
+.discount-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 30px;
+}
+
+
