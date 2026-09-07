@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* common classes.. */
+.text-dec {
+  text-decoration: none;
+  color: black;
+}
 /* ......................................................................header................................................... */
 /* ..........................headCard-1........................ */
 .headCard-1 {
@@ -34,7 +39,6 @@
   align-items: center;
   padding: 0.4em 5.7em;
   margin-bottom: 10px;
-
 }
 h1 {
   font-size: 2.5em;
@@ -172,7 +176,7 @@ h1 {
 .hide:hover {
   box-shadow: inset 0 10px 10px white;
 }
-.hero{
+.hero {
   display: flex;
   padding: 1em 1em;
   height: 23em;
@@ -226,6 +230,7 @@ h1 {
   background-color: rgb(0, 80, 208);
 }
 .t-1 {
+  width: 100%;
   color: white;
 }
 .a-1 {
@@ -258,8 +263,8 @@ h1 {
 
 /* .................................................Populer class section............................................. */
 
-.p-h{
-  margin: 1.5em 4em 0em ;
+.p-h {
+  margin: 1.5em 4em 0em;
 }
 .p-1 {
   border-right: 5em solid white;
@@ -293,12 +298,11 @@ h1 {
   border-radius: 10px;
   transition: all 0.2s;
 }
-.p-3:hover{
-  transform: translateY(-5px)
-  scale(1.01);
+.p-3:hover {
+  transform: translateY(-5px) scale(1.01);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.495);
 }
-.p-4{
+.p-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -320,10 +324,93 @@ h1 {
   display: flex;
   flex-direction: column;
   font-size: 15px;
-
 }
 .p-about {
   display: flex;
   gap: 20px;
+}
 
+/* ......................................program section........................... */
+.program-1 {
+  padding: 0 6em;
+  margin-top: 15px;
+}
+
+.program-main {
+  border-radius: 30px;
+  padding: 20px;
+  height: 23em;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,rgb(8, 100, 236),rgba(134, 188, 235, 0.708), rgb(132, 197, 201),rgba(52, 235, 119)
+  );
+}
+
+.program-child-1 {
+  display: flex;
+  gap: 15px;
+  padding-left: 20em;
+}
+.program-child-1 button {
+  padding: 9px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+.program-child-2 {
+  display: flex;
+  gap: 12px;
+  height: 95%;
+}
+.program-child-2i {
+  width: 20%;
+}
+.child-i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  gap: 10px;
+}
+.child-i button {
+  width: 12em;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid blue;
+  background: white;
+}
+.child-i button a {
+  color: rgb(0, 94, 208);
+  font-weight: 600;
+}
+
+.child-j {
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.program-child-2i-img {
+  height: 65%;
+  width: 100%;
+}
+.program-child-2i-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.program-child-2i-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  padding: 10px 5px;
 }
