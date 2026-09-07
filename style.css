@@ -157,8 +157,8 @@ h1 {
 /* ...................main hero css....................... */
 
 .hide {
-  border-right: 5em solid white;
-  border-left: 5em solid white;
+  border-right: 4em solid white;
+  border-left: 4em solid white;
   border-top: 1px solid rgba(142, 142, 211, 0.518);
   margin-top: 10px;
 }
@@ -253,27 +253,30 @@ h1 {
 }
 
 /* .................................................Populer class section............................................. */
+
+.p-h{
+  margin: 1.5em 4em 0em ;
+}
 .p-1 {
   border-right: 5em solid white;
   border-left: 5em solid white;
-  margin-top: 20px;
-  padding: 1em 2em;
+  margin-top: 0px;
+  padding: 1em 1em;
   height: 25em;
   width: 100vw;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 15px;
 }
 
 .p-2 {
   display: flex;
   flex-direction: column;
-  gap: 18px;
-  /* border: 1px solid; */
-  height: 90%;
-  width: 30%;
+  gap: 15px;
+  height: 100%;
+  width: 33%;
   background-color: rgba(78, 140, 206, 0.244);
-  padding: 20px 10px;
+  padding: 20px 15px;
   border-radius: 10px;
 }
 
@@ -281,7 +284,7 @@ h1 {
   background-color: white;
   padding: 9px;
   display: flex;
-  gap: 15px;
+  gap: 10px;
   height: 95px;
   border-radius: 10px;
   transition: all 0.2s;
