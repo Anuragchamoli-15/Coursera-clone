@@ -652,8 +652,118 @@ h1 {
     border: 1px solid;
     border: 1px solid rgb(193, 203, 219);
     background-color: white;
+    transition: all 0.2s linear;
 
 }
 .career2-btn:hover{
-  
+  transform: translateY(-4px)
+  scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.105);
+}
+
+/*.................... Explore2.......... */
+.Ex-2{
+  padding: 1em 6em;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 2em;
+}
+.Ex-2-heading{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.ex-2-btn{
+  padding: 10px;
+  background:none;
+  border: none;
+  font-size: 15px;
+  color: blue;
+  transition: all 0.2s linear;
+  border-radius: 10px;
+}
+.ex-2-btn:hover{
+  background-color: rgb(240, 246, 253);
+  text-decoration: underline;
+}
+.ex-2-btn a{
+  color: blue;
+  font-weight: 550;
+}
+.Ex-2-card{
+  display: flex;
+  gap: 15px;
+}
+.Ex-2-cards{
+  height: 18em;
+  width: 20%;
+  border: 1px solid rgba(80, 78, 78, 0.268);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  font-size: 17px;
+}
+.Ex-2-cards:hover{
+  transform: translateY(-4px)
+  scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.105);
+}
+
+.Ex-2-cards img{
+  height: 50%;
+  width: 100%;
+  object-fit: contain;
+  background-color:rgb(255, 244, 232);
+  border-radius: 10px;
+}
+
+/* .........................................graph.................... */
+.graph-A{
+  padding: 0 6em;
+  margin-top: 3.5em;
+}
+.graph{
+  display: flex;
+  /* border: 1px solid; */
+  align-items: center;
+  gap: 29em;
+  height: 12em;
+  border-radius: 20px;
+  background-color:rgb(1, 36, 87) ;
+}
+.graph-text{
+  padding:  2em 1.8em;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+  color: white;
+}
+.graph-text p{
+  font-size: 20px;
+}
+.graph-text a{
+  width: 8em;
+  font-size: 16px;
+  margin-top: 15px;
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: white;
+}
+.graph-img{
+  height: 100%;
+  width: 17%;
+}
+.graph-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
