@@ -544,3 +544,116 @@ h1 {
   height: 100%;
   width: 100%;
 }
+
+/*.......................................... categori................................................. */
+.categori-A{
+   padding: 0px 5.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.categori-A h3{
+  font-size:22px ;
+  padding: 0 10px;
+
+}
+.categori-A1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.categori-A1-btn{
+   padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(240, 246, 253);
+  border: 1px solid rgb(233, 238, 247);
+  transition: all 0.2s linear;
+  font-size: 15px;
+  font-weight: 400;
+}
+.categori-A1-btn:hover{
+  transform: translateY(-3px)
+  scale(1.01);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.393);
+}
+
+/* .................trending ............... */
+.trending-serch{
+ padding: 1em 6em;
+
+}
+.trending-serch-card{
+    border-right: 5em solid white;
+  border-left: 5em solid white;
+  margin-top: 0px;
+  padding: 1em 1em;
+  height: 25em;
+  width: 100vw;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 15px;
+}
+.trending-s-c-A{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  width: 33%;
+  background-color: rgb(227, 237, 251);
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+.trending-s-c-A1{
+  background-color: white;
+  padding: 9px;
+  display: flex;
+  gap: 10px;
+  height: 95px;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+.trending-s-c-A1-img{
+   border-radius: 10px;
+  height: 100%;
+  width: 80px;
+  background-color: white;
+}
+.trending-s-c-A1-img img{
+  object-fit: cover;
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.trending-s-c-A1-heading{
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.trending-A1-rating{
+  display: flex;
+  gap: 20px;
+}
+
+/* ...............career2.................. */
+.career2{
+  align-items: center;
+  background-color: rgb(240, 246, 253);
+  margin: 0 6em;
+  border-radius: 30px;
+  
+}
+.career2-btn{
+  padding: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 1px solid;
+    border: 1px solid rgb(193, 203, 219);
+    background-color: white;
+
+}
+.career2-btn:hover{
+  
+}
