@@ -435,7 +435,7 @@ h1 {
   border-radius: 30px;
   overflow: hidden;
 }
-.b2i-color{
+.b2i-color {
   background-color: rgb(0, 39, 97);
 }
 .discount-about {
@@ -471,23 +471,22 @@ h1 {
   border-radius: 30px;
 }
 
-
 /* company & universiti */
-.companies-a{
-     padding: 0px 5.5em;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  .c-b{
+.companies-a {
+  padding: 0px 5.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.c-b {
   font-size: 22px;
   padding: 0 10px;
 }
-.c-c{
+.c-c {
   display: flex;
   gap: 10px;
 }
-.c-d-btns{
+.c-d-btns {
   padding: 10px;
   border-radius: 20px;
   background-color: white;
@@ -496,74 +495,70 @@ h1 {
   font-size: 15px;
   font-weight: 400;
 }
-  
-.c-d-btns:hover{
-  transform: translateY(-3px)
-  scale(1.01);
+
+.c-d-btns:hover {
+  transform: translateY(-3px) scale(1.01);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.393);
 }
 
 /*......................... career & degree........................ */
-.career-degree{
-      padding: 0 6em;
-    margin-top: 2.5em;
-    margin-bottom: 2em;
-    display: flex;
-    gap: 1.3em;
-    height: 7.5em;
-
+.career-degree {
+  padding: 0 6em;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  display: flex;
+  gap: 1.3em;
+  height: 7.5em;
 }
-.career-1{
-    width: 33%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-    border-radius: 20px;
-    background: linear-gradient(90deg, rgb(241, 246, 253), rgb(249, 244, 254));
-    transition: all 0.2s linear;
+.career-1 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, rgb(241, 246, 253), rgb(249, 244, 254));
+  transition: all 0.2s linear;
 }
-.career-1:hover{
-  transform: translateY(-3px)
-  scale(1.01);
+.career-1:hover {
+  transform: translateY(-3px) scale(1.01);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.141);
 }
-.career-1-headline{
-    width: 90%;
-    font-size:20px ;
+.career-1-headline {
+  width: 90%;
+  font-size: 20px;
 }
 
-.career-1-image{
+.career-1-image {
   align-items: center;
   display: flex;
   width: 12%;
   height: 35%;
   margin-right: 30px;
 }
-.career-1-image img{
+.career-1-image img {
   height: 100%;
   width: 100%;
 }
 
 /*.......................................... categori................................................. */
-.categori-A{
-   padding: 0px 5.5em;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.categori-A {
+  padding: 0px 5.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.categori-A h3{
-  font-size:22px ;
+.categori-A h3 {
+  font-size: 22px;
   padding: 0 10px;
-
 }
-.categori-A1{
+.categori-A1 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-.categori-A1-btn{
-   padding: 10px;
+.categori-A1-btn {
+  padding: 10px;
   border-radius: 20px;
   background-color: rgb(240, 246, 253);
   border: 1px solid rgb(233, 238, 247);
@@ -571,19 +566,17 @@ h1 {
   font-size: 15px;
   font-weight: 400;
 }
-.categori-A1-btn:hover{
-  transform: translateY(-3px)
-  scale(1.01);
+.categori-A1-btn:hover {
+  transform: translateY(-3px) scale(1.01);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.393);
 }
 
 /* .................trending ............... */
-.trending-serch{
- padding: 1em 6em;
-
+.trending-serch {
+  padding: 1em 6em;
 }
-.trending-serch-card{
-    border-right: 5em solid white;
+.trending-serch-card {
+  border-right: 5em solid white;
   border-left: 5em solid white;
   margin-top: 0px;
   padding: 1em 1em;
@@ -593,7 +586,7 @@ h1 {
   /* flex-direction: column; */
   gap: 15px;
 }
-.trending-s-c-A{
+.trending-s-c-A {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -603,7 +596,7 @@ h1 {
   padding: 20px 15px;
   border-radius: 10px;
 }
-.trending-s-c-A1{
+.trending-s-c-A1 {
   background-color: white;
   padding: 9px;
   display: flex;
@@ -612,92 +605,89 @@ h1 {
   border-radius: 10px;
   transition: all 0.2s;
 }
-.trending-s-c-A1-img{
-   border-radius: 10px;
+.trending-s-c-A1-img {
+  border-radius: 10px;
   height: 100%;
   width: 80px;
   background-color: white;
 }
-.trending-s-c-A1-img img{
+.trending-s-c-A1-img img {
   object-fit: cover;
   background-color: white;
   border-radius: 10px;
   height: 100%;
   width: 100%;
 }
-.trending-s-c-A1-heading{
-    display: flex;
+.trending-s-c-A1-heading {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.trending-A1-rating{
+.trending-A1-rating {
   display: flex;
   gap: 20px;
 }
 
 /* ...............career2.................. */
-.career2{
+.career2 {
   align-items: center;
   background-color: rgb(240, 246, 253);
   margin: 0 6em;
   border-radius: 30px;
-  
 }
-.career2-btn{
+.career2-btn {
   padding: 10px;
-    padding: 15px;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 15px;
-    border: 1px solid;
-    border: 1px solid rgb(193, 203, 219);
-    background-color: white;
-    transition: all 0.2s linear;
-
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 15px;
+  border: 1px solid;
+  border: 1px solid rgb(193, 203, 219);
+  background-color: white;
+  transition: all 0.2s linear;
 }
-.career2-btn:hover{
-  transform: translateY(-4px)
-  scale(1.02);
+.career2-btn:hover {
+  transform: translateY(-4px) scale(1.02);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.105);
 }
 
 /*.................... Explore2.......... */
-.Ex-2{
+.Ex-2 {
   padding: 1em 6em;
   display: flex;
   flex-direction: column;
   gap: 15px;
   margin-top: 2em;
 }
-.Ex-2-heading{
-    display: flex;
-    gap: 20px;
-    font-size: 20px;
-    align-items: center;
+.Ex-2-heading {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  align-items: center;
 }
 
-.ex-2-btn{
+.ex-2-btn {
   padding: 10px;
-  background:none;
+  background: none;
   border: none;
   font-size: 15px;
   color: blue;
   transition: all 0.2s linear;
   border-radius: 10px;
 }
-.ex-2-btn:hover{
+.ex-2-btn:hover {
   background-color: rgb(240, 246, 253);
   text-decoration: underline;
 }
-.ex-2-btn a{
+.ex-2-btn a {
   color: blue;
   font-weight: 550;
 }
-.Ex-2-card{
+.Ex-2-card {
   display: flex;
   gap: 15px;
 }
-.Ex-2-cards{
+.Ex-2-cards {
   height: 18em;
   width: 20%;
   border: 1px solid rgba(80, 78, 78, 0.268);
@@ -709,36 +699,35 @@ h1 {
   transition: all 0.2s linear;
   font-size: 17px;
 }
-.Ex-2-cards:hover{
-  transform: translateY(-4px)
-  scale(1.02);
+.Ex-2-cards:hover {
+  transform: translateY(-4px) scale(1.02);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.105);
 }
 
-.Ex-2-cards img{
+.Ex-2-cards img {
   height: 50%;
   width: 100%;
   object-fit: contain;
-  background-color:rgb(255, 244, 232);
+  background-color: rgb(255, 244, 232);
   border-radius: 10px;
 }
 
 /* .........................................graph.................... */
-.graph-A{
+.graph-A {
   padding: 0 6em;
   margin-top: 3.5em;
 }
-.graph{
+.graph {
   display: flex;
   /* border: 1px solid; */
   align-items: center;
   gap: 29em;
   height: 12em;
   border-radius: 20px;
-  background-color:rgb(1, 36, 87) ;
+  background-color: rgb(1, 36, 87);
 }
-.graph-text{
-  padding:  2em 1.8em;
+.graph-text {
+  padding: 2em 1.8em;
   width: 55%;
   display: flex;
   flex-direction: column;
@@ -746,10 +735,10 @@ h1 {
   font-size: 16px;
   color: white;
 }
-.graph-text p{
+.graph-text p {
   font-size: 20px;
 }
-.graph-text a{
+.graph-text a {
   width: 8em;
   font-size: 16px;
   margin-top: 15px;
@@ -758,12 +747,57 @@ h1 {
   font-weight: 600;
   color: white;
 }
-.graph-img{
+.graph-img {
   height: 100%;
   width: 17%;
 }
-.graph-img img{
+.graph-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+/* .....................review................ */
+.review {
+  padding: 0 6em;
+  margin-top: 3em;
+  margin-bottom: 10em;
+  height: 17em;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-2 {
+  height: 100%;
+  display: flex;
+  gap: 15px;
+}
+.review-child {
+  padding: 20px;
+  border: 1px solid ;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 25%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.216);
+}
+.review-child p{
+  text-align: justify;
+  font-size: 20px;
+  color: rgb(72, 84, 110);
+  margin-right: 10px;
+}
+.review-child-img {
+  display: flex;
+  gap: 15px;
+  height: 25%;
+  width: 100%;
+  align-items: center;
+}
+.review-child-img img{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
 }
